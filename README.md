@@ -76,9 +76,11 @@ This sensor-based feedback loop enabled stable path-following behaviour under no
 
 ## Implementation
 
-The project involved integration of IR sensor detection with microcontroller-based motor actuation using embedded control logic.
+The system used an ATmega2560-based microcontroller platform to process IR sensor signals and generate motor control commands through a motor driver interface.
 
-Sensor outputs were interpreted by the controller to determine motion direction, and motor commands were issued through a motor driver interface to achieve trajectory tracking.
+The IR sensors detected contrast differences between the path and surrounding surface. These signals were interpreted by the controller to determine motion direction, enabling continuous trajectory correction through sensor-feedback-based control logic.
+
+The implementation followed a typical embedded robotics control workflow consisting of sensing, decision logic execution, and actuator command generation in real time.
 
 ---
 
@@ -133,6 +135,15 @@ Possible extensions to this system include:
 This project was completed in January 2019 during my B.Tech studies.
 
 Due to the time elapsed since completion, original source code and hardware images are not available. The documentation above reflects the implemented system architecture and control logic used during the project.
+
+---
+
+## Reference Architecture
+
+The system followed a standard IR sensor-based line-following control architecture commonly used in Arduino-compatible mobile robotics platforms.
+
+Example reference implementation:
+https://projecthub.arduino.cc/jrachana/line-follower-robot-using-arduino-uno-59356d
 
 ---
 
