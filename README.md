@@ -82,6 +82,7 @@ The IR sensors detected contrast differences between the path and surrounding su
 
 The implementation followed a typical embedded robotics control workflow consisting of sensing, decision logic execution, and actuator command generation in real time.
 
+
 ---
 
 ## Results
@@ -89,6 +90,17 @@ The implementation followed a typical embedded robotics control workflow consist
 The robot successfully followed a predefined black path using sensor-based feedback logic.
 
 The system demonstrated stable tracking behaviour under controlled indoor lighting conditions and validated the effectiveness of real-time sensor-driven motion correction.
+
+---
+
+## Applications
+
+This type of sensor-based trajectory tracking system forms the basis of:
+
+• autonomous mobile robots  
+• warehouse navigation platforms  
+• industrial guided vehicles (AGVs)  
+• educational embedded control platforms
 
 ---
 
@@ -130,11 +142,19 @@ Possible extensions to this system include:
 
 ---
 
-## Note
+## Project Context
 
-This project was completed in January 2019 during my B.Tech studies.
+This project was completed in January 2019 as part of my undergraduate Electrical Engineering coursework.
 
-Due to the time elapsed since completion, original source code and hardware images are not available. The documentation above reflects the implemented system architecture and control logic used during the project.
+This repository documents the system architecture and embedded control workflow implemented during the project.
+
+---
+
+## Repository Structure
+
+docs/ → system architecture diagrams and supporting documentation  
+
+This repository documents the system architecture and control workflow implemented during the project.
 
 ---
 
