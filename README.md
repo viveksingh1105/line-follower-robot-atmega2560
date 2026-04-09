@@ -146,7 +146,7 @@ Possible extensions to this system include:
 
 This project was completed in January 2019 as part of my undergraduate Electrical Engineering coursework.
 
-This repository documents the system architecture and embedded control workflow implemented during the project.
+This repository documents the system architecture and embedded control strategy used to implement autonomous line tracking using an ATmega2560 microcontroller and IR sensor array.
 
 ---
 
